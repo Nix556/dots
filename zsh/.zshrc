@@ -3,6 +3,9 @@ setopt PROMPT_SUBST
 export TERM=xterm-256color
 
 alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
