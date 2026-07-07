@@ -1,12 +1,13 @@
-# Dotfiles
+# Hyprland Configs
 
-Dotfiles for my Hyprland setup.
+My old Hyprland setup and related Wayland configuration files.
+I no longer use Hyprland, but I keep these configs here.
 
-## Stuff I use
+## Stuff I used
 
 - Hyprland
-- foot
 - Waybar
+- foot
 - Fuzzel
 - Thunar
 - Mako
@@ -14,26 +15,21 @@ Dotfiles for my Hyprland setup.
 - Hyprpaper
 - Hypridle
 - Zsh
-- greetd
+- greetd + tuigreet
 
 ## Notes
 
-- Still tweaking things when I feel like it.
-- Nothing here is perfectly polished.
-- If something looks odd, I probably haven’t bothered fixing it yet.
+- These configs are no longer actively maintained.
+- Some things may need adjustment depending on system, packages, or Hyprland version.
 
-## Folders
+## Folder structure
 
 ```text
-hypr/       -> hyprland config
-waybar/     -> status bar
-foot/       -> terminal
-fuzzel/     -> launcher
-mako/       -> notifications
-hyprlock/   -> lockscreen
-hyprpaper/  -> wallpapers
-hypridle/   -> idle / lock handling
-zsh/        -> shell config
+hypr/       -> Hyprland configuration
+waybar/     -> Waybar status bar
+foot/       -> foot terminal configuration
+fuzzel/     -> application launcher
+mako/       -> notification daemon
 ````
 
 ## Dependencies
@@ -49,11 +45,10 @@ hyprlock
 hyprpaper
 cliphist
 wl-clipboard
-grim
-slurp
+grim + slurp
 playerctl
 brightnessctl
-pipewire
+PipeWire + WirePlumber
 greetd
 greetd-tuigreet
 hypridle
